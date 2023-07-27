@@ -17,7 +17,8 @@ The live version of this webapp is hosted on Heroku, and may be found [here](htt
 1. First clone this GitHub repository.
 2. Go to `/server/deepl-translate.js` file and follow the comments.
 3. Ensure that the Heroku CLI is installed, then create a new app on Heroku.
-4. Login to Heroku on the terminal using `heroku login`.
-5. Run `heroku git:remote -a insert-your-app-name-here` (you may need to set up a new Git repo).
-6. Add and commit the files, then `git push heroku master`.
-7. Go to the Heroku link for the app once done deploying and enjoy!
+4. Add a Heroku config variable called `DEEPL_API_KEY` containing your DeepL API key.
+5. Login to Heroku on the terminal using `heroku login`.
+6. Run `heroku git:remote -a insert-your-app-name-here` (you may need to set up a new Git repo).
+7. Add and commit the files, then `git push heroku master`.
+8. Go to the Heroku link for the app once done deploying and enjoy!
